@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0e14;
+  --foreground: #e6edf3;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  min-height: 100vh;
+}
+
+/* RainbowKit modal compatibility */
+[data-rk] {
+  --rk-colors-connectButtonBackground: #1a2332;
+  --rk-colors-connectButtonText: #e6edf3;
+  --rk-colors-accentColor: #00d4aa;
+  --rk-colors-modalBackground: #1a2332;
+  --rk-radii-connectButton: 0.5rem;
+  --rk-radii-modal: 0.75rem;
+}
